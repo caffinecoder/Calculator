@@ -1,0 +1,50 @@
+.cal-container {
+  max-width: 355px;
+  width: 100%;
+  padding: 28px 10px;
+  margin: 0 auto;
+  border: 2px solid #000;
+  background-color: #000000;
+}
+.input {
+  width: 100%;
+  padding: 2px 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 5rem;
+  text-align: right;
+  color: #fff;
+  font-weight: 400;
+  border: none;
+  background-color: transparent;
+}
+.buttons-wrap {
+  display: grid;
+  gap: 6px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.button {
+  height: 75px;
+  width: 75px;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  outline: none;
+  font-weight: 500;
+  border: none;
+  background-color: #333333;
+}
+.button:hover {
+    background-color: #e0e0e0;
+    color: #000;
+  }
+
+.acButton, .moduloButton, .plusMinusButton{
+    color: #000;
+    background-color: #a4a4a4;
+}
+.divideButton, .multiplyButton, .minusButton, .plusButton{
+    background-color: #ff9f0a;
+    color: #fff;
+}
